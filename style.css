@@ -1,26 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    
-    background-image: url("Images/stardust.png");
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    background-image: url("Images/pink-yellow-plain-background.jpg");
+    color: #5a5a5a;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 16px;
+    text-align: center;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 h2{
-    color: #b1e2a7;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: x-large;
+    color: #88465c;
 
 }
 h1{
-    color: #b1e2a7;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      font-size: xx-large;
+    color: #d82d66;
 
 }
 
 h3{
-    color: #b1e2a7;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #5a5a5a;
 
 }
 html{
@@ -62,10 +89,14 @@ section{
 }
 
 li, a, button{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #b1e2a7;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 20px;
+    color: #d82d66;
     text-decoration: none;
 }
 
@@ -74,7 +105,8 @@ header{
     text-indent: -25px; 
     display: flex;
     padding: 5px;
-    background-color:  #202024;;
+    background-color:  #FFC6C6;;
+    opacity: 0.6;
 }
 
 p.thick {
@@ -101,7 +133,7 @@ p.thick {
 button{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgb(0, 136, 100,1);
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -117,11 +149,11 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-track{
-    background: rgb(0, 136, 100,0.8);
+    background: rgba(136, 0, 106, 0.8);
 }
 
 body::-webkit-scrollbar-thumb{
-    background: #b1e2a7;
+    background: #FAD0C4;
 }
 
 .card {
@@ -129,7 +161,7 @@ body::-webkit-scrollbar-thumb{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #353535;
+    background: #222222;
     font-size: 3rem;
     color: #fff;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
@@ -203,7 +235,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .custom-shape-divider-top-1676848583 .shape-fill {
-    fill: #A1F8A0;
+    fill: #FFC6C6;
 }
 
 .custom-shape-divider-bottom-1676848458 {
@@ -224,7 +256,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .custom-shape-divider-bottom-1676848458 .shape-fill {
-    fill: #A1F8A0;
+    fill: #F0A8D0;
 }
 
 img {
