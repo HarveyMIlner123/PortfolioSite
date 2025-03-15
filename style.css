@@ -3,6 +3,9 @@
 
 body{
     background-image: url("Images/pink-yellow-plain-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #5a5a5a;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
